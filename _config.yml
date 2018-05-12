@@ -1,17 +1,17 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
-url: "https://sylhare.github.io"
-title: Type on Strap # site's title
-description: "A website with blog posts and pages" # used by search engines
+baseurl: ""
+url: "https://blog.night-shade.org.uk"
+title: A travelling tinker
+description: 'Things I&#039;ve fixed, places I&#039;ve been'
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type on Strap # blog's title
+  title: A travelling tinker
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
-  gravatar: # Email MD5 hash
+  gravatar: 96688e2b870da5be9d2f5d33612764ad
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
@@ -29,18 +29,18 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "sylhare"
+  github: "timjdfletcher"
   google_plus:
-  instagram:
+  instagram: timjdfletcher
   keybase:
-  linkedin:  # Full URL
+  linkedin:  
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: # "twitter username"
+  twitter: timjdfletcher
   vimeo:
   wordpress:
   youtube:
