@@ -15,15 +15,17 @@ I am assuming that you already have a working GPG key on your Yubiky and want to
 
 First you will need to install [GPGTools](https://gpgtools.org/)
 
-Next you will need to set up the gpg-agent config file, add the following lines to the file $HOME/<span class="s1">.gnupg/gpg-agent.conf</span>
+Next you will need to set up the gpg-agent config file, add the following lines to the file `$HOME/.gnupg/gpg-agent.conf`
 
-<pre class="p1"><span class="s1">enable-ssh-support</span>
-<span class="s1">use-standard-socket
-</span><span class="s1">write-env-file</span></pre>
+```
+enable-ssh-support
+use-standard-socket
+write-env-file
+```
 
-<p class="p1">
-  The final change you need to make is in $HOME/.bash_profile to add these lines:
-</p>
+The final change you need to make is in $HOME/.bash_profile to add these lines:
 
-<pre class="p1"><span class="s1">unset SSH_AUTH_SOCK</span>
-<span class="s1">export SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh</span></pre>
+```
+unset SSH_AUTH_SOCK
+export SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh
+```
