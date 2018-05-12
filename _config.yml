@@ -15,10 +15,10 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
+    Things I&#039;ve fixed, places I&#039;ve been
+  header_text_feature_image: wp-content//uploads/2011/12/cropped-IMG_4148-Blog-Header.jpg
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
@@ -29,11 +29,11 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "timjdfletcher"
+  github: timjdfletcher
   google_plus:
   instagram: timjdfletcher
   keybase:
-  linkedin:  
+  linkedin: https://www.linkedin.com/in/timjdfletcher
   pinterest:
   reddit:
   soundcloud:
@@ -97,4 +97,4 @@ sass:
   style: :compressed
 plugins: [jekyll-paginate, jekyll-seo-tag]
 #theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
-exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
+exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".gemcache", "LICENSE", "README.md", "screenshot.png"]
