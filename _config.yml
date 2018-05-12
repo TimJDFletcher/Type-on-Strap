@@ -9,7 +9,7 @@ description: 'Things I&#039;ve fixed, places I&#039;ve been'
 theme_settings:
   # Meta
   title: A travelling tinker
-  avatar: assets/img/triangle.svg
+  avatar: assets/img/TinkerTool-icon.png
   favicon: assets/favicon.ico
   gravatar: 96688e2b870da5be9d2f5d33612764ad
 
