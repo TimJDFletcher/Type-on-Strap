@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://blog.night-shade.org.uk"
+url: "https://blog.night-shade.org.uk/"
 title: A travelling tinker
 description: 'Things I&#039;ve fixed, places I&#039;ve been'
 
@@ -26,7 +26,7 @@ theme_settings:
   behance:
   bitbucket:
   dribbble:
-  facebook: timjdfletcher
+  facebook:
   flickr:
   gitlab:
   github: timjdfletcher
