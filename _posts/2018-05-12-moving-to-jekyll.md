@@ -4,6 +4,7 @@ date: 2018-05-12T22:49:00+02:00
 author: Tim Fletcher
 layout: post
 permalink: /2018/05/2018-05-12-moving-to-jekyll/
+summary: Updating my blog
 tags:
   - Tech
 ---
