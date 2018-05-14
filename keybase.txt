@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/timjdfletcher
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blog.night-shade.org.uk
+  * I am timjdfletcher (https://keybase.io/timjdfletcher) on keybase.
+  * I have a public key ASDBi_hcNLfIsNlQGMUvA0ScSR9WKd38IJcww3j5sCvUOAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120c18bf85c34b7c8b0d95018c52f03449c491f5629ddfc209730c378f9b02bd4380a",
+            "host": "keybase.io",
+            "kid": "0120c18bf85c34b7c8b0d95018c52f03449c491f5629ddfc209730c378f9b02bd4380a",
+            "uid": "f07ca6c7d03b7e0eb7b33518954eba19",
+            "username": "timjdfletcher"
+        },
+        "service": {
+            "hostname": "blog.night-shade.org.uk",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1472137763,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1472137709,
+        "hash": "4f91f555161b6f3aedd93dbbff093400d423950ee9d5cbf8d4574af61cab0513acb82f64bb70c795ca93844323ccc8dafccff7585fd3ef5a79e55b0488db87df",
+        "seqno": 601375
+    },
+    "prev": "39d03a6ad1a604c3679840d8aaa72f01949bbe1e35265f38506b6945780a5fa4",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgwYv4XDS3yLDZUBjFLwNEnEkfVind/CCXMMN4+bAr1DgKp3BheWxvYWTFAwR7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYzE4YmY4NWMzNGI3YzhiMGQ5NTAxOGM1MmYwMzQ0OWM0OTFmNTYyOWRkZmMyMDk3MzBjMzc4ZjliMDJiZDQzODBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzE4YmY4NWMzNGI3YzhiMGQ5NTAxOGM1MmYwMzQ0OWM0OTFmNTYyOWRkZmMyMDk3MzBjMzc4ZjliMDJiZDQzODBhIiwidWlkIjoiZjA3Y2E2YzdkMDNiN2UwZWI3YjMzNTE4OTU0ZWJhMTkiLCJ1c2VybmFtZSI6InRpbWpkZmxldGNoZXIifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImJsb2cubmlnaHQtc2hhZGUub3JnLnVrIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTYifSwiY3RpbWUiOjE0NzIxMzc3NjMsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3MjEzNzcwOSwiaGFzaCI6IjRmOTFmNTU1MTYxYjZmM2FlZGQ5M2RiYmZmMDkzNDAwZDQyMzk1MGVlOWQ1Y2JmOGQ0NTc0YWY2MWNhYjA1MTNhY2I4MmY2NGJiNzBjNzk1Y2E5Mzg0NDMyM2NjYzhkYWZjY2ZmNzU4NWZkM2VmNWE3OWU1NWIwNDg4ZGI4N2RmIiwic2Vxbm8iOjYwMTM3NX0sInByZXYiOiIzOWQwM2E2YWQxYTYwNGMzNjc5ODQwZDhhYWE3MmYwMTk0OWJiZTFlMzUyNjVmMzg1MDZiNjk0NTc4MGE1ZmE0Iiwic2Vxbm8iOjgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA14HGvePpA6bP5f9/ufrV6bBhD/Qqf0EnWo7Icr+x38pO7HGImfPrGJ2rKGmo5+3UbPEaizimmOBBrDMFsC6TCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGCvOPe26XQSW1uBUGbBQ32WJKDAOc88BNfCdiLIA8juo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/timjdfletcher
+
+==================================================================
+
