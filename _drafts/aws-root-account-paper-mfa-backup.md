@@ -1,5 +1,5 @@
 ---
-title: Backup Google authenticator codes on paper
+title: Teams, MFA and AWS root accounts
 date: YYYYY
 author: Tim Fletcher
 layout: post
@@ -10,16 +10,23 @@ tags:
   - Tech
   - Security
 ---
-Enabling two factor authentication is one of the best ways to keep your accounts secure. There are a lots of ways to do this one of the popular ones is Google Authenticator, which shows a 6 number rolling code that changes over time. [Behind the scenes](https://en.wikipedia.org/wiki/Google_Authenticator)  this code is generated from a shared secret between your phone and the service you are logging into, hashed with the current time.
+Enabling two factor authentication is one of the best ways to keep your AWS and other accounts secure. There are a lots of ways to do this one of the popular ones is Google Authenticator, which shows a 6 number rolling code that changes over time. [Behind the scenes](https://en.wikipedia.org/wiki/Google_Authenticator)  this code is generated from a shared secret between your phone and the service you are logging into, hashed with the current time.
 
-Modern mobiles phones are pretty secure devices, but the problem with using a mobile phone is that you can lose them, upgrade them or change the software on them and lose your copy of the shared key. 
+The root account of an AWS account isn't like a normal account and needs to be kept secure but accessible in a crisis for a team of people, which makes MFA configuration more complex.
 
-The challenage when working in a team is keeping track of the MFA device and making sure it's available when you need it.
+An MFA workflow I have seen used successfully is:
 
-The design my previous team came up with is following:
+* Generate and print the MFA QR code
+* Scan and activate the QR code into a cheap android mobile phone
+* Securely store the mobile phone, maybe turned off to save power
+* Security store the MFA QR code printed out in an envelope separately
 
-- Cheap andriod mobile phone, this is basically acting as a TOTP authtication token.
-- Print out of the QR code shown on the 
+You could also use a shared Yubikey to store the MFA code rather than a mobile phone by using [Yubico Authenticator
+](https://www.yubico.com/products/services-software/download/yubico-authenticator/).
 
-Shared mobile phone or Yubikey
-Print out MFA QR code and store in safe
+This solves in a fairly secure way the following:
+
+* Continuing access to an AWS root account even when personal change
+* Quick access to the root account if needed
+* Retain access to MFA even when technology fails
+* Separation of password and MFA tokens
