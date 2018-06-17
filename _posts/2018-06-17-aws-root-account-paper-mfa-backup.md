@@ -1,6 +1,6 @@
 ---
 title: Teams, MFA and AWS root accounts
-date: YYYYY
+date: 2018-06-17
 author: Tim Fletcher
 layout: post
 permalink: /2018/05/google-authenticator-paper-backup/
