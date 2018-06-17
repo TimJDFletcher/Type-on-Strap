@@ -4,8 +4,8 @@ date: 2018-06-17
 author: Tim Fletcher
 layout: post
 permalink: /2018/05/google-authenticator-paper-backup/
-feature-img: "XXXX"
-thumbnail: "https://en.wikipedia.org/wiki/Google_Authenticator#/media/File:Google_Authenticator_for_Android_icon.png"
+feature-img: "assets/img/pexels/locks.jpeg"
+thumbnail: "assets/img/pexels/locks.jpeg"
 tags:
   - Tech
   - Security
