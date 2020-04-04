@@ -1,49 +1,20 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://blog.night-shade.org.uk/"
-title: A travelling tinker
-description: 'Things I&#039;ve fixed, places I&#039;ve been'
-
 
 # THEME-SPECIFIC CONFIGURATION
-theme_settings:
-  # Meta
-  title: A travelling tinker
-  avatar: assets/img/TinkerTool-icon.png
-  favicon: assets/favicon.ico
-  gravatar: 96688e2b870da5be9d2f5d33612764ad
+title: A travelling tinker
+description: 'Things I&#039;ve fixed, places I&#039;ve been'
+avatar: assets/img/TinkerTool-icon.png
+favicon: assets/favicon.ico
 
-  # Header and footer text
-  header_text: > #two or three lines to describe your site
-    Things I&#039;ve fixed, places I&#039;ve been
-  header_text_feature_image: wp-content//uploads/2011/12/cropped-IMG_4148-Blog-Header.jpg
-  footer_text: >
-    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+# Header and footer text
+header_text: > #two or three lines to describe your site
+  Things I&#039;ve fixed, places I&#039;ve been
+header_text_feature_image: wp-content/uploads/2011/12/cropped-IMG_4148-Blog-Header.jpg
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
-  # Icons
-  rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: # Full email address, e.g. "sam@example.com"
-  behance:
-  bitbucket:
-  dribbble:
-  facebook:
-  flickr:
-  gitlab:
-  github: timjdfletcher
-  google_plus:
-  instagram: timjdfletcher
-  keybase: timjdfletcher
-  linkedin: https://www.linkedin.com/in/timjdfletcher
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:  # Full URL
-  steam:
-  tumblr:
-  twitter: timjdfletcher
-  vimeo:
-  wordpress:
-  youtube:
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
 post_navigation: true
