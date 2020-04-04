@@ -11,7 +11,7 @@ favicon: assets/favicon.ico
 # Header and footer text
 header_text: > #two or three lines to describe your site
   Things I&#039;ve fixed, places I&#039;ve been
-header_text_feature_image: wp-content/uploads/2011/12/cropped-IMG_4148-Blog-Header.jpg
+header_feature_image: wp-content/uploads/2011/12/cropped-IMG_4148-Blog-Header.jpg
 footer_text: >
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
