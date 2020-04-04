@@ -2,6 +2,7 @@
 layout: post
 title: Markdown and HTML
 tags: [Test, Markdown]
+author: rohanchandra
 ---
 
 Jekyll supports the use of [Markdown](http://daringfireball.net/projects/markdown/syntax) with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.
@@ -15,7 +16,7 @@ Content Cell  | Content Cell
 
 Here's an example of an image, which is included using Markdown:
 
-![Image of a glass on a book]({{ site.baseurl }}/assets/img/pexels/book-glass.jpeg)
+![Image of a glass on a book]({{ "/assets/img/pexels/book-glass.jpeg" | relative_url }})
 
 Highlighting for code in Jekyll is done using Base16 or Rouge. This theme makes use of Rouge by default.
 

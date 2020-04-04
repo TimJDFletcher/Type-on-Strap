@@ -2,11 +2,13 @@
 layout: post
 title: Generate a table of content
 tags: [toc.js, kramdown, Markdown, Customization]
+author: sylhare
+excerpt_separator: <!--more-->
 ---
 
 Test article, get the source on [github](https://github.com/Sylhare/Type-on-Strap/blob/gh-pages/_posts/2013-12-12-toc.js-for-table-of-content.md).
 
-# Using Kramdown GFM
+# Using Kramdown GFM <!--more-->
 
 <!-- To be placed at the beginning of the post, it is where the table of content will be generated -->
 * TOC
@@ -40,7 +42,7 @@ Demo display of [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-
 If you want to customize the theme it is up to you, you can add the `toc.js` file into the `asset > js` and add it into the `page.html` layout with:
 
 ```html
-<script src="{{ site.baseurl }}/assets/js/toc.js" ></script>
+<script src="{{ "/assets/js/toc.js" | relative_url }}" ></script>
 ```
 Then you can use it as it is said on the repository.
 
