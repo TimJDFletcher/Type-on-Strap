@@ -21,6 +21,7 @@ Gemfile.lock
 *.gem
 .gems
 jekyll-theme-type-on-strap.gemspec
+.gemcache
 
 # Node js files
 **/node_modules/*
