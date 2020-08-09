@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
-    <script defer=true src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+    <script defer src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
     
     <!-- CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
@@ -35,32 +35,36 @@
     <script src="{{ '/assets/js/vendor/katex.min.js' | relative_url }}"></script>
     {% endif %}
 
-    <!-- Google Analytics -->
-    {% if site.google_analytics %}
-    <!-- Global site tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <!-- Google Analytics / Cookie Consent -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '{{ site.google_analytics }}');
+      const cookieName = 'cookie-notice-dismissed-{{ site.url }}';
+      const isCookieConsent = '{{ site.cookie_consent }}';
+      const analyticsName = '{{ site.google_analytics }}';
     </script>
-    
-    <!-- Page analysis (analytics.js) -->
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
+
+    {% if site.cookie_consent %}
+        <div id="cookie-notice"><span>{{ site.data.language.str_cookie_disclaimer | default: "We would like to use third party cookies and scripts to improve the functionality of this website." }}
+          </span><a id="cookie-notice-accept" class="button">{{ site.data.language.str_cookie_approve | default: "Approve" }}</a>
+        </div>
     {% endif %}
-    <!-- End Google Analytics -->
+    {% if site.google_analytics %}
+        <!-- Global site tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+        <!-- Page analysis (analytics.js) -->
+        <script async src='https://www.google-analytics.com/analytics.js'></script>
+    {% endif %}
 
     <!-- seo tags -->
+    <meta property="og:image" content="{{ '/' | absolute_url }}{% if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ page.feature-img | default: site.header_feature_image }}{% endif %}">
     {% seo %}
-    <!-- Manual seo tags -->
-    <!--
-    <title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.title }}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    -->
+
+    <!-- RSS -->
+    {% feed_meta %}
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.theme_settings.title }}{% endif %}">
+    <meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncate: 160 }}">
+    {% if site.theme_settings.twitter %}<meta name="twitter:creator" content="@{{ site.theme_settings.twitter }}">{% endif %}
+    <meta name="twitter:card" content="{% unless page.thumbnail %}summary{% else %}summary_large_image{% endunless %}">
+    <meta name="twitter:image" content="{{ '/' | absolute_url }}{% if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ page.feature-img | default: site.header_feature_image }}{% endif %}">
 </head>
